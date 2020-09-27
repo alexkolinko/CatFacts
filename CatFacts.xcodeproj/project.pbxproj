@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1441D8251F368000F79F3D /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441D7251F368000F79F3D /* WelcomeInteractor.swift */; };
+		4B1441DD251F369300F79F3D /* WelcomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441DC251F369300F79F3D /* WelcomeModels.swift */; };
+		4B1441E2251F36A600F79F3D /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441E1251F36A600F79F3D /* WelcomePresenter.swift */; };
+		4B1441E7251F36B400F79F3D /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441E6251F36B400F79F3D /* WelcomeRouter.swift */; };
+		4B1441EC251F36C300F79F3D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441EB251F36C300F79F3D /* WelcomeViewController.swift */; };
+		4B1441F1251F36D300F79F3D /* WelcomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441F0251F36D300F79F3D /* WelcomeWorker.swift */; };
+		4B1441F7251F372800F79F3D /* FactsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441F6251F372800F79F3D /* FactsInteractor.swift */; };
+		4B1441FF251F373D00F79F3D /* FactsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1441FE251F373D00F79F3D /* FactsModels.swift */; };
+		4B144204251F375E00F79F3D /* FactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B144203251F375E00F79F3D /* FactsPresenter.swift */; };
+		4B144209251F377300F79F3D /* FactsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B144208251F377300F79F3D /* FactsRouter.swift */; };
+		4B14420E251F378600F79F3D /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B14420D251F378600F79F3D /* FactsViewController.swift */; };
+		4B144213251F379700F79F3D /* FactsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B144212251F379700F79F3D /* FactsWorker.swift */; };
+		4B14421F2520B00800F79F3D /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B14421E2520B00800F79F3D /* EntryCell.swift */; };
 		848E7212251E42C8008E8D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E7211251E42C8008E8D5E /* AppDelegate.swift */; };
 		848E7214251E42C8008E8D5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E7213251E42C8008E8D5E /* SceneDelegate.swift */; };
-		848E7216251E42C8008E8D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E7215251E42C8008E8D5E /* ViewController.swift */; };
 		848E7219251E42C8008E8D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848E7217251E42C8008E8D5E /* Main.storyboard */; };
 		848E721C251E42C8008E8D5E /* CatFacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848E721A251E42C8008E8D5E /* CatFacts.xcdatamodeld */; };
 		848E721E251E42CA008E8D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848E721D251E42CA008E8D5E /* Assets.xcassets */; };
@@ -36,10 +48,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1441D7251F368000F79F3D /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		4B1441DC251F369300F79F3D /* WelcomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModels.swift; sourceTree = "<group>"; };
+		4B1441E1251F36A600F79F3D /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		4B1441E6251F36B400F79F3D /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		4B1441EB251F36C300F79F3D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4B1441F0251F36D300F79F3D /* WelcomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWorker.swift; sourceTree = "<group>"; };
+		4B1441F6251F372800F79F3D /* FactsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsInteractor.swift; sourceTree = "<group>"; };
+		4B1441FE251F373D00F79F3D /* FactsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsModels.swift; sourceTree = "<group>"; };
+		4B144203251F375E00F79F3D /* FactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsPresenter.swift; sourceTree = "<group>"; };
+		4B144208251F377300F79F3D /* FactsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsRouter.swift; sourceTree = "<group>"; };
+		4B14420D251F378600F79F3D /* FactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
+		4B144212251F379700F79F3D /* FactsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsWorker.swift; sourceTree = "<group>"; };
+		4B14421E2520B00800F79F3D /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
 		848E720E251E42C8008E8D5E /* CatFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848E7211251E42C8008E8D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848E7213251E42C8008E8D5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848E7215251E42C8008E8D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848E7218251E42C8008E8D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848E721B251E42C8008E8D5E /* CatFacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatFacts.xcdatamodel; sourceTree = "<group>"; };
 		848E721D251E42CA008E8D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +102,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B1441D5251F365300F79F3D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4B1441D6251F366300F79F3D /* Welcome */,
+				4B1441F5251F36FB00F79F3D /* Facts */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4B1441D6251F366300F79F3D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4B1441D7251F368000F79F3D /* WelcomeInteractor.swift */,
+				4B1441DC251F369300F79F3D /* WelcomeModels.swift */,
+				4B1441E1251F36A600F79F3D /* WelcomePresenter.swift */,
+				4B1441E6251F36B400F79F3D /* WelcomeRouter.swift */,
+				4B1441EB251F36C300F79F3D /* WelcomeViewController.swift */,
+				4B1441F0251F36D300F79F3D /* WelcomeWorker.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		4B1441F5251F36FB00F79F3D /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				4B14421D2520AFF300F79F3D /* Views */,
+				4B1441F6251F372800F79F3D /* FactsInteractor.swift */,
+				4B1441FE251F373D00F79F3D /* FactsModels.swift */,
+				4B144203251F375E00F79F3D /* FactsPresenter.swift */,
+				4B144208251F377300F79F3D /* FactsRouter.swift */,
+				4B14420D251F378600F79F3D /* FactsViewController.swift */,
+				4B144212251F379700F79F3D /* FactsWorker.swift */,
+			);
+			path = Facts;
+			sourceTree = "<group>";
+		};
+		4B14421D2520AFF300F79F3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B14421E2520B00800F79F3D /* EntryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		848E7205251E42C7008E8D5E = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +169,9 @@
 		848E7210251E42C8008E8D5E /* CatFacts */ = {
 			isa = PBXGroup;
 			children = (
+				4B1441D5251F365300F79F3D /* Scenes */,
 				848E7211251E42C8008E8D5E /* AppDelegate.swift */,
 				848E7213251E42C8008E8D5E /* SceneDelegate.swift */,
-				848E7215251E42C8008E8D5E /* ViewController.swift */,
 				848E7217251E42C8008E8D5E /* Main.storyboard */,
 				848E721D251E42CA008E8D5E /* Assets.xcassets */,
 				848E721F251E42CA008E8D5E /* LaunchScreen.storyboard */,
@@ -261,10 +329,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848E7216251E42C8008E8D5E /* ViewController.swift in Sources */,
+				4B1441EC251F36C300F79F3D /* WelcomeViewController.swift in Sources */,
+				4B14421F2520B00800F79F3D /* EntryCell.swift in Sources */,
+				4B1441F7251F372800F79F3D /* FactsInteractor.swift in Sources */,
 				848E7212251E42C8008E8D5E /* AppDelegate.swift in Sources */,
+				4B1441E2251F36A600F79F3D /* WelcomePresenter.swift in Sources */,
+				4B1441FF251F373D00F79F3D /* FactsModels.swift in Sources */,
+				4B1441F1251F36D300F79F3D /* WelcomeWorker.swift in Sources */,
+				4B144213251F379700F79F3D /* FactsWorker.swift in Sources */,
+				4B1441E7251F36B400F79F3D /* WelcomeRouter.swift in Sources */,
+				4B144209251F377300F79F3D /* FactsRouter.swift in Sources */,
+				4B1441DD251F369300F79F3D /* WelcomeModels.swift in Sources */,
 				848E721C251E42C8008E8D5E /* CatFacts.xcdatamodeld in Sources */,
+				4B144204251F375E00F79F3D /* FactsPresenter.swift in Sources */,
 				848E7214251E42C8008E8D5E /* SceneDelegate.swift in Sources */,
+				4B1441D8251F368000F79F3D /* WelcomeInteractor.swift in Sources */,
+				4B14420E251F378600F79F3D /* FactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
